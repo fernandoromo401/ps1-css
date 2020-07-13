@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.body{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba (0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba (0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba (0,0,0,0.75);
+}
+.body-i{
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(189,189,189,1) 0%, rgba(168,168,168,1) 100%);
+    position: absolute;
+    border-radius: 10px;
+}
+.body-d{
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(189,189,189,1) 0%, rgba(168,168,168,1) 100%);
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+}
+.tapa{
+    width: 300px;
+    background: linear-gradient(to right, rgba(199,199,199,1) 0%, rgba(163,163,163,1) 100%);
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+    border: rgb(131, 131, 131) 3px solid;
+    z-index: 5;
+    box-shadow: 0px 0px 10px 0px rgba (0,0,0,0.75);
+}
+.tapa_solapa{
+    height: 100%;
+    background: linear-gradient(to right, rgba(168,168,168,1) 0%, rgba(148,146,148,1) 50%, rgba(166,166,166,1) 100%);
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+}
+.espacio{
+    width: 100%;
+    height: 7px;
+    background-color: white;
+}
+.abajo{
+    position: absolute;
+    bottom: 0;
+}
+.boton{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right, rgb(177, 177, 177) 0%, rgb(153, 153, 153) 100%);
+    border-radius: 50%;
+    border: 1.5px solid rgb(131, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.reset{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 30px;
+    bottom: 110px;
+    font-size: 6px;
+}
+.power{
+    color: rgb(25, 150, 137);
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.open{
+    color: rgb(0, 133, 167);
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.logo-font{
+    width: 80px;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 50px;
+}
+.logo{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: 40px;
+}
+.luz{
+    height: 20px;
+    width: 5px;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 8px);
+    border: 1.5px solid rgb(131, 131, 131);
+}
